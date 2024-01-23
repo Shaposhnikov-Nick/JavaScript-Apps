@@ -44,19 +44,5 @@ function render(data = null) {
 }
 
 function getWeatherConditionImg(condition) {
-  if (condition === "Clouds") {
-    return "./images/clouds.png";
-  } else if (condition === "Clear") {
-    return "./images/clear.png";
-  } else if (condition === "Rain") {
-    return "./images/rain.png";
-  } else if (condition === "Drizzle") {
-    return "./images/drizzle.png";
-  } else if (condition === "Mist") {
-    return "./images/mist.png";
-  } else if (condition === "Snow") {
-    return "./images/snow.png";
-  } else {
-    return "./images/clouds.png";
-  }
+  return `./images/${condition.toLowerCase()}.png`;
 }
