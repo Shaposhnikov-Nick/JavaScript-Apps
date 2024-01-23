@@ -1,4 +1,4 @@
-const apiKey = "0c3631aa33f817e24f91b1ae849c46ac"; // need your own API key
+const apiKey = ""; // need your own API key
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric";
 
 const humidity = document.querySelector(".humidity");
