@@ -13,3 +13,6 @@ Simple applications in HTML, CSS, JavaScript for a deeper study of JavaScript
 
 - Notes_app  
   Application for create notes with saving in the browser's local storage
+
+- Age calculator
+  Application for calculating age up to the current date
